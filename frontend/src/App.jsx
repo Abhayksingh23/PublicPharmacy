@@ -101,7 +101,7 @@ function App() {
 
   return <div className="app-shell">
     <aside className="sidebar">
-      <div className="brand"><div className="brand-icon">✚</div><div><strong>ABC Pharmacy</strong><small>Inventory Console</small></div></div>
+      <div className="brand"><div className="brand-icon">✚</div><div><strong>Public Pharmacy</strong><small>Inventory Console</small></div></div>
       <div className="nav-label">WORKSPACE</div>
       <button className={`nav-item ${activeTab === 'inventory' ? 'active' : ''}`} onClick={() => setActiveTab('inventory')}>▦ <span>Medicine Inventory</span></button>
       <button className={`nav-item ${activeTab === 'sales' ? 'active' : ''}`} onClick={() => setActiveTab('sales')}>↗ <span>Sales Records</span></button>
@@ -109,7 +109,7 @@ function App() {
     </aside>
 
     <main className="main-content">
-      <header className="topbar"><div><span className="eyebrow">PHARMACY MANAGEMENT</span><h1>{activeTab === 'inventory' ? 'Medicine Inventory' : 'Sales Records'}</h1><p>Manage medicine stock, expiry dates and sales in one place.</p></div><div className="avatar">AB</div></header>
+      <header className="topbar"><div><span className="eyebrow">PHARMACY MANAGEMENT</span><h1>{activeTab === 'inventory' ? 'Medicine Inventory' : 'Sales Records'}</h1><p>Manage medicine stock, expiry dates and sales in one place.</p></div><div className="avatar">PP</div></header>
 
       {message && <div className="notice success">{message}<button onClick={() => setMessage('')}>×</button></div>}
       {error && <div className="notice error">{error}<button onClick={() => setError('')}>×</button></div>}
@@ -167,7 +167,7 @@ function App() {
           </tbody></table></div><div className="table-footer">{sales.length} sale record(s)</div>
         </section>
       </>}
-      <footer>ABC Pharmacy <span>•</span> Inventory & Sales Management</footer>
+      <footer>Public Pharmacy <span>•</span> Inventory & Sales Management</footer>
     </main>
   </div>;
 }

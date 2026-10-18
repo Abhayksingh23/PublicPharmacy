@@ -28,7 +28,7 @@ public sealed class JsonFileStore
 
     private static List<Medicine> SeedMedicines() =>
     [
-        new() { FullName = "Paracetamol 500mg", Notes = "Pain and fever relief", ExpiryDate = DateOnly.FromDateTime(DateTime.Today.AddMonths(10)), Quantity = 50, Price = 25.50m, Brand = "ABC Pharma" },
+        new() { FullName = "Paracetamol 500mg", Notes = "Pain and fever relief", ExpiryDate = DateOnly.FromDateTime(DateTime.Today.AddMonths(10)), Quantity = 50, Price = 25.50m, Brand = "Public Pharma" },
         new() { FullName = "Cetirizine 10mg", Notes = "Allergy relief", ExpiryDate = DateOnly.FromDateTime(DateTime.Today.AddDays(18)), Quantity = 24, Price = 18.00m, Brand = "HealthPlus" },
         new() { FullName = "Vitamin C Tablets", Notes = "Keep in a cool, dry place", ExpiryDate = DateOnly.FromDateTime(DateTime.Today.AddMonths(8)), Quantity = 6, Price = 99.99m, Brand = "WellLife" }
     ];

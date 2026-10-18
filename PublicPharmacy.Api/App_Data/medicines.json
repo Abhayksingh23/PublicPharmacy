@@ -6,7 +6,7 @@
     "ExpiryDate": "2027-08-17",
     "Quantity": 50,
     "Price": 25.50,
-    "Brand": "ABC Pharma"
+    "Brand": "Public Pharma"
   },
   {
     "Id": "25cde5b8-68cc-4898-bd82-f343ee1a0c68",
@@ -34,5 +34,14 @@
     "Quantity": 1000,
     "Price": 3,
     "Brand": "Apollo"
+  },
+  {
+    "Id": "f5d54c5d-9582-46ca-b968-0263ecff477b",
+    "FullName": "AciLoc",
+    "Notes": "Keep in Cool Place , Used for Digestion",
+    "ExpiryDate": "2027-06-23",
+    "Quantity": 500,
+    "Price": 7.5,
+    "Brand": "Crocin LLP"
   }
 ]
