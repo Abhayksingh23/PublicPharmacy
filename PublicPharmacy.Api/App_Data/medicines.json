@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "0f3ed36f-8ff3-4267-9229-fb9e052934c0",
+    "FullName": "Paracetamol 500mg",
+    "Notes": "Pain and fever relief",
+    "ExpiryDate": "2027-08-17",
+    "Quantity": 50,
+    "Price": 25.50,
+    "Brand": "ABC Pharma"
+  },
+  {
+    "Id": "25cde5b8-68cc-4898-bd82-f343ee1a0c68",
+    "FullName": "Cetirizine 10mg",
+    "Notes": "Allergy relief",
+    "ExpiryDate": "2026-11-04",
+    "Quantity": 24,
+    "Price": 18.00,
+    "Brand": "HealthPlus"
+  },
+  {
+    "Id": "b869ea6b-8bff-48ef-ae7e-e9e34b57e2f7",
+    "FullName": "Vitamin C Tablets",
+    "Notes": "Keep in a cool, dry place",
+    "ExpiryDate": "2027-06-17",
+    "Quantity": 4,
+    "Price": 99.99,
+    "Brand": "WellLife"
+  },
+  {
+    "Id": "462c657e-b44a-47f8-87d7-ca3f8f860f3e",
+    "FullName": "Saridon",
+    "Notes": "Head Pain Killer",
+    "ExpiryDate": "2027-10-18",
+    "Quantity": 1000,
+    "Price": 3,
+    "Brand": "Apollo"
+  }
+]

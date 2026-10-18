@@ -1,0 +1,11 @@
+[
+  {
+    "Id": "94d264bf-6c96-459f-9f48-6cfc32268078",
+    "MedicineId": "b869ea6b-8bff-48ef-ae7e-e9e34b57e2f7",
+    "MedicineName": "Vitamin C Tablets",
+    "QuantitySold": 2,
+    "UnitPrice": 99.99,
+    "TotalAmount": 199.98,
+    "SoldAtUtc": "2026-10-18T05:07:10.1634108Z"
+  }
+]
